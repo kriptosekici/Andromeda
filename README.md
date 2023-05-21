@@ -53,7 +53,7 @@ go version
 <h1 align="center"> Andromeda'yı yüklüyoruz </h1>
 
 ```sh
-NODE_MONIKER="Validatör İsmin"
+NODE_MONIKER=kriptosekici
 
 cd || return
 rm -rf andromedad
