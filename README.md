@@ -146,7 +146,7 @@ andromedad status 2>&1 | jq .SyncInfo.catching_up
 ## Validator oluşturma
 ```sh
 andromedad tx staking create-validator \
---amount=1000000uandr \
+--amount=1500000uandr \
 --pubkey=$(andromedad tendermint show-validator) \
 --moniker="$NODE_MONIKER" \
 --chain-id=galileo-3 \
@@ -155,7 +155,7 @@ andromedad tx staking create-validator \
 --commission-max-change-rate=0.05 \
 --min-self-delegation=1 \
 --fees=10000uandr \
---from=rues \
+--from=kriptosekici \
 -y
 ```
 
